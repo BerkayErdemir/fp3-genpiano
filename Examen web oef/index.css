@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(./Fotos/KDA-KaiSa-2-Splash-Art-HD-Wallpaper-Background-Official-Art-Artwork-League-of-Legends-lol-1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    position: relative;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+    background-color: rgb(160, 107, 230);
+
+}
+
+.logo {
+
+    color: rgb(224, 139, 217);
+    height: 60px;
+    font-size: 50px;
+    padding: 0 20px;
+
+    text-align: center;
+    box-sizing: border-box;
+    float: left;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+nav {
+    float: right;
+}
+
+.clearfix {
+    clear: both;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+
+    display: block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: slateblue;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    background: rgb(224, 182, 212);
+    color: white;
+    transition: 0.5s;
+
+}
+
+section img {
+    height: 150px;
+    width: 15%;
+    float: left;
+    box-sizing: border-box;
+    margin: 20px;
+    margin-left: 250px;
+}
